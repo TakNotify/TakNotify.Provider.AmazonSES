@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TakNotify</RootNamespace>
+    <Summary>The Amazon SES Provider for TakNotify library</Summary>
+    <Description>The Amazon SES Provider for TakNotify library</Description>
+    <Authors>frandi-dwi</Authors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <RepositoryUrl>https://github.com/TakNotify/TakNotify.Provider.AmazonSES</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>taknotify;notification;dotnet-core;email;amazon-ses;aws</PackageTags>
+    <Copyright>Copyright (c) Frandi Dwi 2020. All rights reserved</Copyright>
+    <PackageProjectUrl>https://taknotify.github.io/</PackageProjectUrl>
+    <PackageIconUrl>https://taknotify.github.io/images/icon.png</PackageIconUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <VersionPrefix>1.0.0</VersionPrefix>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.SimpleEmail" Version="3.3.101.191" />
+    <PackageReference Include="TakNotify" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
