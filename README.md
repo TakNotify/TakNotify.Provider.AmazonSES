@@ -1,3 +1,6 @@
+[![Build Status](https://dev.azure.com/taknotify/TakNotify/_apis/build/status/TakNotify.Provider.AmazonSES?branchName=master)](https://dev.azure.com/taknotify/TakNotify/_build/latest?definitionId=14&branchName=master)
+![Nuget](https://img.shields.io/nuget/v/taknotify.provider.amazonses)
+
 # TakNotify - Amazon SES Provider
 
 The `TakNotify.Provider.AmazonSES` is a `TakNotify` provider that sends email notification via Amazon Simple Email Service.
